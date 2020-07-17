@@ -39,6 +39,8 @@ class VolumeGenerator(tk.Tk):
             textvariable = layout,
             state = "readonly"
         )
+      
+        ''' adding values to the combobox'''  
         self.shape['values'] = ("Cube" , "Cuboid" , "Cylinder" , "Cone" , "Sphere" , "Hemisphere")
         self.shape.place(x = 175, y = 2)     
         
